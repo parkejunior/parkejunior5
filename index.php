@@ -11,6 +11,9 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 	<!-- AWESOME Icons -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+	<!-- GOOGLE Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Livvic&display=swap" rel="stylesheet">
 	
 	<link rel="stylesheet" href="/styles/estilo.css">
 	<script src="/jscript/principal.js"></script>
@@ -50,11 +53,11 @@
 					<div class="rounded-circle bg-success circlemenu d-inline-block"></div>
 					<div class="rounded-circle bg-warning circlemenu d-inline-block"></div>
 					<div class="rounded-circle bg-danger circlemenu d-inline-block"></div>
-					<small class="d-inline-block ml-2" style='font-family:monospace;'>Version: 5.00</small>
+					<small class="d-inline-block ml-2 monospace">Version: 5.00</small>
 				</div>
 				<div class="car-body px-3">
 				<h1 class="display-4" style="word-wrap: break-word;"><i class="fas fa-terminal"></i> Uma nova forma de ver a internet...</h1>
-				<h5 style='font-family:monospace;'>
+				<h5 class="monospace">
 					<p>Park & Junior é um site com objetivo de reunir tudo que eu, Patrick Luan, descobri na internet e achei util e/ou divertido.</p>
 					<p>Atualmente direcionei o site para uma pequena modificação de conteúdo, trazendo algumas coisas com mais foco em programação, design e desenvolvimento WEB, que são minha área de estudo.</p>
 					<p>Você também pode ver meu portfólio pessoal, onde tem alguns projetos que desenvolvi e outros onde participei.</p>
@@ -66,7 +69,7 @@
 	<section class="container-fluid">
 		<div class="row">
 			<div class="col-sm-7 p-5 bg-dark text-white">
-				<h1 style="font-family:monospace;">Desenvolvimento WEB</h1>
+				<h1 class="monospace">Desenvolvimento WEB</h1>
 				<p>Falando sobre programaçao e tals e agora vamos rodar esse link e tambem sobre design web e outras coisas de web developer sobre programaçao e tals e agora vamos rodar esse link e tambem sobre design web e outras coisas de web developer</p>
 				<a href="#" class="btn btn-outline-light btn-lg float-right">Acessar</a>
 			</div>
@@ -74,7 +77,7 @@
 
 			<div class="col-sm-3 bg-danger px-5 py-3"><img src="/img/designgrphc.jpg" class="img-fluid shadow-lg rounded-circle"></div>
 			<div class="col-sm-9 p-5 bg-danger text-white">
-				<h1 style="font-family:monospace;">Design Gráfico</h1>
+				<h1 class="monospace">Design Gráfico</h1>
 				<p>Falando sobre programaçao e tals e agora vamos rodar esse link e tambem sobre design web e outras coisas de web developer</p>
 				<a href="#" class="btn btn-outline-light btn-lg float-left">Acessar</a>
 			</div>
