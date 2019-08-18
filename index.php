@@ -30,6 +30,7 @@
 
 			<ul class="navbar-nav collapse navbar-collapse" id="expandMenu">
 				<li class="nav-item active"><a href="/" class="nav-link"><i class="fas fa-home"></i> Início</a></li>
+				<li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-table"></i> Portfólio</a></li>
 				<li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-briefcase"></i> Serviços</a></li>
 				<li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-headset"></i> Contato</a></li>
 			</ul>
@@ -52,8 +53,12 @@
 					<small class="d-inline-block ml-2" style='font-family:monospace;'>Version: 5.00</small>
 				</div>
 				<div class="car-body px-3">
-				<h1 class="display-4" style="word-wrap: break-word;"><i class="fas fa-terminal"></i> Uma nova forma de desenvolver...</h1>
-				<h5 style='font-family:monospace;'>Park & Junior tomou um novo rumo na programação, mas sem deixar se ser aquele site onde você pode fazer os seus downloads!</h5>
+				<h1 class="display-4" style="word-wrap: break-word;"><i class="fas fa-terminal"></i> Uma nova forma de ver a internet...</h1>
+				<h5 style='font-family:monospace;'>
+					<p>Park & Junior é um site com objetivo de reunir tudo que eu, Patrick Luan, descobri na internet e achei util e/ou divertido.</p>
+					<p>Atualmente direcionei o site para uma pequena modificação de conteúdo, trazendo algumas coisas com mais foco em programação, design e desenvolvimento WEB, que são minha área de estudo.</p>
+					<p>Você também pode ver meu portfólio pessoal, onde tem alguns projetos que desenvolvi e outros onde participei.</p>
+				</h5>
 				</div>
 			</div>
 		</div>
@@ -69,7 +74,7 @@
 
 			<div class="col-sm-3 bg-danger px-5 py-3"><img src="/img/designgrphc.jpg" class="img-fluid shadow-lg rounded-circle"></div>
 			<div class="col-sm-9 p-5 bg-danger text-white">
-				<h1 style="font-family:monospace;">Design Grafico</h1>
+				<h1 style="font-family:monospace;">Design Gráfico</h1>
 				<p>Falando sobre programaçao e tals e agora vamos rodar esse link e tambem sobre design web e outras coisas de web developer</p>
 				<a href="#" class="btn btn-outline-light btn-lg float-left">Acessar</a>
 			</div>
