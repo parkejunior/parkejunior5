@@ -66,30 +66,64 @@
 			</div>
 		</div>
 	</header>
-	<section class="container-fluid">
+
+	<section class="bg-dark text-white">
+	<div class="container">
 		<div class="row">
-			<div class="col-sm-7 p-5 bg-dark text-white">
+			<div class="col-sm-7 p-5">
 				<h1 class="monospace">Desenvolvimento WEB</h1>
-				<p>Falando sobre programaçao e tals e agora vamos rodar esse link e tambem sobre design web e outras coisas de web developer sobre programaçao e tals e agora vamos rodar esse link e tambem sobre design web e outras coisas de web developer</p>
+				<p>Atualmente é a minha maior habilidade, tanto para infraestrutura de rede, servidor WEB, e principalmente programação. Atualmente estou estudando o Framework de PHP Laravel 5.8 e a esrutura do MVC. No botão abaixo você encontra mais artigos sobre!</p>
 				<a href="#" class="btn btn-outline-light btn-lg float-right">Acessar</a>
 			</div>
 			<div class="col-sm-5 bg-dark px-5 py-3"><img src="/img/designsite.jpg" class="img-fluid shadow-lg"></div>
-
-			<div class="col-sm-3 bg-danger px-5 py-3"><img src="/img/designgrphc.jpg" class="img-fluid shadow-lg rounded-circle"></div>
-			<div class="col-sm-9 p-5 bg-danger text-white">
+			<div class="col-12 row text-center text-secondary">
+				<div class="col">
+					<h1 class="display-1"><i class="fab fa-bootstrap"></i></h1>
+					<h2> Bootstrap 4x</h2> 
+				</div>
+				<div class="col">
+					<h1 class="display-1"><i class="fab fa-html5"></i></h1>
+					<h2> HTML5</h2> 
+				</div>
+				<div class="col">
+					<h1 class="display-1"><i class="fab fa-css3-alt"></i></h1>
+					<h2> CSS3</h2> 
+				</div>
+				<div class="col">
+					<h1 class="display-1"><i class="fab fa-js-square"></i></h1>
+					<h2> JavaScript</h2> 
+				</div>
+				<div class="col">
+					<h1 class="display-1"><i class="fab fa-php"></i></h1>
+					<h2> PHP 7x</h2> 
+				</div>
+			</div>
+		</div>
+	</div>
+	</section>
+	<section class="bg-danger text-white">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-3 px-5 py-3"><img src="/img/designgrphc.jpg" class="img-fluid shadow-lg rounded-circle"></div>
+			<div class="col-sm-9 p-5">
 				<h1 class="monospace">Design Gráfico</h1>
 				<p>Falando sobre programaçao e tals e agora vamos rodar esse link e tambem sobre design web e outras coisas de web developer</p>
 				<a href="#" class="btn btn-outline-light btn-lg float-left">Acessar</a>
 			</div>
 		</div>
-		<div class="bg-primary p-5 text-white row text-center">
-			<h2 class="container-fluid">...sem contar nos downloads que o site tem!<br>Divirta-se :)<br><i class="fas fa-angle-double-down"></i></h2>
-		</div>
+	</div>
 	</section>
+	<section class="bg-primary p-5 text-center text-white">
+		<h4 class="monospace">...sem contar nos downloads que o site tem!</h4>
+		<h2>Divirta-se :)</h2>
+		<i class="fas fa-angle-double-down"></i>
+	</section>
+
 	<footer class="bg-dark p-2 text-white text-center">
 		<div class="container-fluid row">
 		<div class="col-sm-4">
 			<h2 class="border-bottom p-2 border-secondary">Park & Junior</h2>
+			<a href="https://github.com/parkejunior/parkejunior5" class="btn btn-light" target="_blank"><i class="fab fa-github"></i> GitHub</a>
 		</div>
 		<div class="col-sm-4">
 			<h2 class="border-bottom p-2 border-secondary">Redes Sociais</h2>
