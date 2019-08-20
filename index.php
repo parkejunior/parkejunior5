@@ -76,7 +76,8 @@
 				<a href="#" class="btn btn-outline-light btn-lg float-right">Acessar</a>
 			</div>
 			<div class="col-sm-5 bg-dark px-5 py-3"><img src="/img/designsite.jpg" class="img-fluid shadow-lg"></div>
-			<div class="col-12 row text-center text-secondary">
+			<div class="container-fluid text-center text-secondary">
+			<div class="row">
 				<div class="col">
 					<h1 class="display-1"><i class="fab fa-bootstrap"></i></h1>
 					<h2> Bootstrap 4x</h2> 
@@ -97,6 +98,7 @@
 					<h1 class="display-1"><i class="fab fa-php"></i></h1>
 					<h2> PHP 7x</h2> 
 				</div>
+			</div>
 			</div>
 		</div>
 	</div>
