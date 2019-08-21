@@ -115,10 +115,54 @@
 		</div>
 	</div>
 	</section>
-	<section class="bg-primary p-5 text-center text-white">
-		<h4 class="monospace">...sem contar nos downloads que o site tem!</h4>
-		<h2>Divirta-se :)</h2>
+	<section class="bg-primary p-5 text-center text-white d-none">
+		<h1 class="display-3">Divirta-se :)<br>
 		<i class="fas fa-angle-double-down"></i>
+		</h1>
+	</section>
+	<section class="jumbotron jumbotron-fluid mb-0">
+		<div class="container">
+			<h1 class="text-center pb-2 bg-secondary rounded-top text-white">Ultimas postagens</h1>
+			<div class="row">
+				<?php for ($i=0; $i < 3; $i++): ?>
+				<div class="col-sm-4">
+					<div class="card mb-4">
+						<a href="#" class="card-link">
+						<img src="http://ap.imagensbrasil.org/images/2017/11/26/mods-especial-natal1280.jpg" class="img-fluid rounded-top">
+						<div class="card-body bg-primary text-white py-2">
+							<h5>MOD GTA San Andreas de Natal</h5>
+						</div>
+						</a>
+						<div class="p-1 small bg-secondary text-white">
+							<i class="fas fa-calendar"></i> 25 de December de 2015
+						</div>
+						<div class="card-footer">
+							<p>Feliz Natal meus manos e minas! Bom para aproveitar esse dia separei esses mods para vocês colocarem em seu GTA SA blz? Bom trouxe 4 mods...</p>
+							<i class="float-right small"><i class="fas fa-user-edit"></i> Patrick Luan</i>
+						</div>
+					</div>
+				</div>
+				<?php endfor; ?>
+				<div class="col text-center">
+				<button class="btn btn-primary col-sm-3"><i class="fas fa-link"></i> Ver mais</button>
+				</div>
+			</div>
+		</div>		
+	</section>
+	<section class="bg-info mb-0 jumbotron jumbotron-fluid">
+		<div class="container">
+			<div class="bg-light shadow text-center p-3 rounded-lg">
+				<h3>Quer receber alertas quando novidades forem ao ar?</h3>
+				<form class="form-inline justify-content-center">
+					<div class="input-group">
+						<input class="form-control" type="text" name="email_notify" placeholder="exemple@exemple.com">
+						<div class="input-group-append">	
+						<button class="btn btn-primary" type="submit">Receber Alertas</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
 	</section>
 
 	<footer class="bg-dark p-2 text-white text-center">
