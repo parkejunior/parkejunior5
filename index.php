@@ -33,6 +33,7 @@
 
 			<ul class="navbar-nav collapse navbar-collapse" id="expandMenu">
 				<li class="nav-item active"><a href="/" class="nav-link"><i class="fas fa-home"></i> Início</a></li>
+				<li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-newspaper"></i> Artigos</a></li>
 				<li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-table"></i> Portfólio</a></li>
 				<li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-briefcase"></i> Serviços</a></li>
 				<li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-headset"></i> Contato</a></li>
@@ -56,7 +57,7 @@
 					<small class="d-inline-block ml-2 monospace">Version: 5.00</small>
 				</div>
 				<div class="car-body px-3">
-				<h1 class="display-4" style="word-wrap: break-word;"><i class="fas fa-terminal"></i> Uma nova forma de ver a internet...</h1>
+				<h1 class="display-4 text-break"><i class="fas fa-terminal"></i> Uma nova forma de ver a internet...</h1>
 				<h5 class="monospace">
 					<p>Park & Junior é um site com objetivo de reunir tudo que eu, Patrick Luan, descobri na internet e achei util e/ou divertido.</p>
 					<p>Atualmente direcionei o site para uma pequena modificação de conteúdo, trazendo algumas coisas com mais foco em programação, design e desenvolvimento WEB, que são minha área de estudo.</p>
@@ -75,7 +76,7 @@
 				<p>Atualmente é a minha maior habilidade, tanto para infraestrutura de rede, servidor WEB, e principalmente programação. Atualmente estou estudando o Framework de PHP Laravel 5.8 e a esrutura do MVC. No botão abaixo você encontra mais artigos sobre!</p>
 				<a href="#" class="btn btn-outline-light btn-lg float-right">Acessar</a>
 			</div>
-			<div class="col-sm-5 bg-dark px-5 py-3"><img src="/img/designsite.jpg" class="img-fluid shadow-lg"></div>
+			<div class="col-sm-5 px-5 py-3"><img src="/img/designsite.jpg" class="img-fluid shadow-lg"></div>
 			<div class="container-fluid text-center text-secondary">
 			<div class="row">
 				<div class="col">
@@ -112,6 +113,30 @@
 				<p>Falando sobre programaçao e tals e agora vamos rodar esse link e tambem sobre design web e outras coisas de web developer</p>
 				<a href="#" class="btn btn-outline-light btn-lg float-left">Acessar</a>
 			</div>
+			<div class="container-fluid text-center">
+			<div class="row">
+				<div class="col">
+					<h1 class="display-1"><i class="fas fa-tint"></i></h1>
+					<h2> Blur</h2> 
+				</div>
+				<div class="col">
+					<h1 class="display-1"><i class="fas fa-draw-polygon"></i></h1>
+					<h2> Low Poly</h2> 
+				</div>
+				<div class="col">
+					<h1 class="display-1"><i class="fas fa-shapes"></i></h1>
+					<h2> Flat</h2> 
+				</div>
+				<div class="col">
+					<h1 class="display-1"><i class="fas fa-circle-notch"></i></h1>
+					<h2> Material</h2> 
+				</div>
+				<div class="col">
+					<h1 class="display-1"><i class="fab fa-microsoft"></i></h1>
+					<h2> Metro</h2> 
+				</div>
+			</div>
+			</div>
 		</div>
 	</div>
 	</section>
@@ -125,7 +150,7 @@
 			<h1 class="text-center pb-2 bg-secondary rounded-top text-white">Ultimas postagens</h1>
 			<div class="row">
 				<?php for ($i=0; $i < 3; $i++): ?>
-				<div class="col-sm-4">
+				<div class="col-md-4">
 					<div class="card mb-4">
 						<a href="#" class="card-link">
 						<img src="http://ap.imagensbrasil.org/images/2017/11/26/mods-especial-natal1280.jpg" class="img-fluid rounded-top">
@@ -144,7 +169,7 @@
 				</div>
 				<?php endfor; ?>
 				<div class="col text-center">
-				<button class="btn btn-primary col-sm-3"><i class="fas fa-link"></i> Ver mais</button>
+				<button class="btn btn-primary col-md-3"><i class="fas fa-link"></i> Ver mais</button>
 				</div>
 			</div>
 		</div>		
@@ -152,7 +177,7 @@
 	<section class="bg-info mb-0 jumbotron jumbotron-fluid">
 		<div class="container">
 			<div class="bg-light shadow text-center p-3 rounded-lg">
-				<h3>Quer receber alertas quando novidades forem ao ar?</h3>
+				<h3>Quer receber alertas por email quando novidades forem ao ar?</h3>
 				<form class="form-inline justify-content-center">
 					<div class="input-group">
 						<input class="form-control" type="text" name="email_notify" placeholder="exemple@exemple.com">
@@ -186,7 +211,7 @@
 			<i class="fab fa-php"></i> PHP<br>
 		</div>
 		</div>
-		<div><i class="fas fa-copyright"></i> Copyright 2012 - 2019</div>
+		<div>Copyright <i class="fas fa-copyright"></i> 2012 / <?php echo date("Y"); ?> - Park & Junior</div>
 	</footer>
 </body>
 </html>
