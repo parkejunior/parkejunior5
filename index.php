@@ -110,7 +110,7 @@
 			<div class="col-sm-3 px-5 py-3"><img src="/img/designgrphc.jpg" class="img-fluid shadow-lg rounded-circle"></div>
 			<div class="col-sm-9 p-5">
 				<h1 class="monospace">Design Gráfico</h1>
-				<p>Falando sobre programaçao e tals e agora vamos rodar esse link e tambem sobre design web e outras coisas de web developer</p>
+				<p>Quando criei o site, tive que aprender sobre identidade visual. Atualmente tenho habilidade em design com Flat e Blur, mas aprendi outros formatos como Low Poly e outras formas minimalistas de design.</p>
 				<a href="#" class="btn btn-outline-light btn-lg float-left">Acessar</a>
 			</div>
 			<div class="container-fluid text-center">
@@ -182,7 +182,7 @@
 					<div class="input-group">
 						<input class="form-control" type="text" name="email_notify" placeholder="exemple@exemple.com">
 						<div class="input-group-append">	
-						<button class="btn btn-primary" type="submit">Receber Alertas</button>
+						<button class="btn btn-primary" type="submit"><i class="fas fa-rss"></i> Receber</button>
 						</div>
 					</div>
 				</form>
